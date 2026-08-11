@@ -1,0 +1,806 @@
+{
+  "total_traces": 136,
+  "project": "day13",
+  "traces": [
+    {
+      "trace_id": "fb3e2e439547ccbca78d9538fa0e6e1d",
+      "name": "run",
+      "timestamp": "2026-08-11T08:44:59.012Z",
+      "user_id_hash": "49ef5a469240",
+      "session_id": "s10",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-2d5da29f",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "a2ebfc73dd6317a8d3cdf6b2c144328f",
+      "name": "run",
+      "timestamp": "2026-08-11T08:44:10.781Z",
+      "user_id_hash": "49ef5a469240",
+      "session_id": "s10",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-410c1a68",
+      "prompt_label": "production",
+      "prompt_version": 3,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "72a7405e73986ce01723214ce61a0057",
+      "name": "run",
+      "timestamp": "2026-08-11T08:27:55.430Z",
+      "user_id_hash": "105a9cef3903",
+      "session_id": "s10",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-95efe1ea",
+      "prompt_label": "production",
+      "prompt_version": 3,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "a2e1b0342b7841736ba453e548f029a1",
+      "name": "run",
+      "timestamp": "2026-08-11T08:27:55.276Z",
+      "user_id_hash": "4d14d5d4f719",
+      "session_id": "s09",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-b67e5361",
+      "prompt_label": "production",
+      "prompt_version": 3,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "cb6b8598c1994c6ef5439c5715a514e9",
+      "name": "run",
+      "timestamp": "2026-08-11T08:27:55.121Z",
+      "user_id_hash": "2f015d970c0b",
+      "session_id": "s08",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-5aa79cee",
+      "prompt_label": "production",
+      "prompt_version": 3,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "a255c5991a4f9377043de630fac1992a",
+      "name": "run",
+      "timestamp": "2026-08-11T08:27:54.961Z",
+      "user_id_hash": "1632c29ecdec",
+      "session_id": "s07",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-84f9251b",
+      "prompt_label": "production",
+      "prompt_version": 3,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "5a6b76375dc69ff65fd31e7596bb5745",
+      "name": "run",
+      "timestamp": "2026-08-11T08:27:54.798Z",
+      "user_id_hash": "4c4f62330d76",
+      "session_id": "s06",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "summary"
+      ],
+      "correlation_id": "req-327802b0",
+      "prompt_label": "production",
+      "prompt_version": 3,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "f470de817a2e5c5ac579eac988149f96",
+      "name": "run",
+      "timestamp": "2026-08-11T08:27:54.645Z",
+      "user_id_hash": "64f6ec689229",
+      "session_id": "s05",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-3c29102f",
+      "prompt_label": "production",
+      "prompt_version": 3,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "e5ab3f45aa5ea9a08419477c5de54f74",
+      "name": "run",
+      "timestamp": "2026-08-11T08:27:54.482Z",
+      "user_id_hash": "75af07890985",
+      "session_id": "s04",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-0042f907",
+      "prompt_label": "production",
+      "prompt_version": 3,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "b269c9d84668b98d8a0b67f348132271",
+      "name": "run",
+      "timestamp": "2026-08-11T08:27:54.323Z",
+      "user_id_hash": "97ce842ec69d",
+      "session_id": "s03",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "summary"
+      ],
+      "correlation_id": "req-d6b27cbb",
+      "prompt_label": "production",
+      "prompt_version": 3,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "ecf2c06c1a1e1bb5315489ec7d6bc0be",
+      "name": "run",
+      "timestamp": "2026-08-11T08:27:54.158Z",
+      "user_id_hash": "95b6504a8bd6",
+      "session_id": "s02",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-1350da47",
+      "prompt_label": "production",
+      "prompt_version": 3,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "aaa33dceab8200427bffd416b7124eca",
+      "name": "run",
+      "timestamp": "2026-08-11T08:27:53.087Z",
+      "user_id_hash": "2055254ee30a",
+      "session_id": "s01",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-ae376c48",
+      "prompt_label": "production",
+      "prompt_version": 3,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "fcc67aefffd3e5b0fbe5d1b42e40b169",
+      "name": "run",
+      "timestamp": "2026-08-11T08:20:11.668Z",
+      "user_id_hash": "4d14d5d4f719",
+      "session_id": "s09",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-1616513d",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "4dd919e228f340dc98c7ff6abd8ebef9",
+      "name": "run",
+      "timestamp": "2026-08-11T08:20:11.509Z",
+      "user_id_hash": "105a9cef3903",
+      "session_id": "s10",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-ef758897",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "e09c52bbd784de360929415bda94138f",
+      "name": "run",
+      "timestamp": "2026-08-11T08:20:11.349Z",
+      "user_id_hash": "2f015d970c0b",
+      "session_id": "s08",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-4ea2e978",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "eb3d6659d178ba65fd31700d5dd8a25c",
+      "name": "run",
+      "timestamp": "2026-08-11T08:20:11.186Z",
+      "user_id_hash": "1632c29ecdec",
+      "session_id": "s07",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-1faf82f1",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "1cc268e36cf2590683f477ac717ffea3",
+      "name": "run",
+      "timestamp": "2026-08-11T08:20:11.024Z",
+      "user_id_hash": "4c4f62330d76",
+      "session_id": "s06",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "summary"
+      ],
+      "correlation_id": "req-c2c9af44",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "9e91b68bb1d223a64ebc1329bccc6966",
+      "name": "run",
+      "timestamp": "2026-08-11T08:20:10.858Z",
+      "user_id_hash": "64f6ec689229",
+      "session_id": "s05",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-0306d2df",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "90e2ab69aca6f805f158a681adbbf99c",
+      "name": "run",
+      "timestamp": "2026-08-11T08:20:10.701Z",
+      "user_id_hash": "75af07890985",
+      "session_id": "s04",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-b3f667a6",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "cd88513a68fc838411aafab8ca0ff2cb",
+      "name": "run",
+      "timestamp": "2026-08-11T08:20:10.541Z",
+      "user_id_hash": "2055254ee30a",
+      "session_id": "s01",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-75af3895",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "ddec0a6cbc0a998a98467fc7527db22d",
+      "name": "run",
+      "timestamp": "2026-08-11T08:20:10.381Z",
+      "user_id_hash": "95b6504a8bd6",
+      "session_id": "s02",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-9f8c0b66",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "f8def1e8c4375c0686350033802006bc",
+      "name": "run",
+      "timestamp": "2026-08-11T08:20:10.222Z",
+      "user_id_hash": "97ce842ec69d",
+      "session_id": "s03",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "summary"
+      ],
+      "correlation_id": "req-50a62be7",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "085785e427dd7f723bd6c65634359b07",
+      "name": "run",
+      "timestamp": "2026-08-11T08:19:42.089Z",
+      "user_id_hash": "49ef5a469240",
+      "session_id": "s10",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-fa56c906",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "885a68edca070b10c5b6140bdc7041b9",
+      "name": "run",
+      "timestamp": "2026-08-11T08:18:50.630Z",
+      "user_id_hash": "49ef5a469240",
+      "session_id": "s10",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-ecc920f9",
+      "prompt_label": "production",
+      "prompt_version": 2,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "e965c7e0e25dc7399bffafc8656fb779",
+      "name": "run",
+      "timestamp": "2026-08-11T08:17:54.798Z",
+      "user_id_hash": "49ef5a469240",
+      "session_id": "s10",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-3ce4c854",
+      "prompt_label": "candidate",
+      "prompt_version": 2,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "141483ab1bc3963b8ab2aa09a0b60ca5",
+      "name": "run",
+      "timestamp": "2026-08-11T08:17:02.225Z",
+      "user_id_hash": "105a9cef3903",
+      "session_id": "s10",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-9869c14f",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "f40813cb43b84b1e53c7a7ee3800bad9",
+      "name": "run",
+      "timestamp": "2026-08-11T08:17:02.060Z",
+      "user_id_hash": "4d14d5d4f719",
+      "session_id": "s09",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-896e8856",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "2d521d667e3c36e2de115e20a694a5f7",
+      "name": "run",
+      "timestamp": "2026-08-11T08:17:01.895Z",
+      "user_id_hash": "2f015d970c0b",
+      "session_id": "s08",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-5a23e4e7",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "d2976424b32c5bde8b30aba00848166e",
+      "name": "run",
+      "timestamp": "2026-08-11T08:17:01.731Z",
+      "user_id_hash": "1632c29ecdec",
+      "session_id": "s07",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-1a392eb8",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "afac3b25f6e3b3e82619380f2a39614e",
+      "name": "run",
+      "timestamp": "2026-08-11T08:17:01.568Z",
+      "user_id_hash": "4c4f62330d76",
+      "session_id": "s06",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "summary"
+      ],
+      "correlation_id": "req-151bc344",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "253d053161bae66fd70a7d9d4fc9cb58",
+      "name": "run",
+      "timestamp": "2026-08-11T08:17:01.403Z",
+      "user_id_hash": "64f6ec689229",
+      "session_id": "s05",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-20b3faff",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "c0b16ac821b14e235057e0483c92e72b",
+      "name": "run",
+      "timestamp": "2026-08-11T08:17:01.238Z",
+      "user_id_hash": "75af07890985",
+      "session_id": "s04",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-a133310b",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "f6b8b2af6607f5f13c63e94f36d6334b",
+      "name": "run",
+      "timestamp": "2026-08-11T08:17:01.074Z",
+      "user_id_hash": "97ce842ec69d",
+      "session_id": "s03",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "summary"
+      ],
+      "correlation_id": "req-9b8af526",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "6ac42ff27be9fb9ea81dc4295428d1c6",
+      "name": "run",
+      "timestamp": "2026-08-11T08:17:00.919Z",
+      "user_id_hash": "95b6504a8bd6",
+      "session_id": "s02",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-cc90d36c",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "9d695ed561b58cdb97939147cb2abc6d",
+      "name": "run",
+      "timestamp": "2026-08-11T08:16:59.606Z",
+      "user_id_hash": "2055254ee30a",
+      "session_id": "s01",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-76587198",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse"
+    },
+    {
+      "trace_id": "5fa9a99da92de2f4286475f89bca5c65",
+      "name": "run",
+      "timestamp": "2026-08-11T08:14:40.778Z",
+      "user_id_hash": "ce0de1b7bac2",
+      "session_id": "s-verify",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-13c96559",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "55503fac4dd2bf59e8dda50b32b67236",
+      "name": "run",
+      "timestamp": "2026-08-11T08:14:39.370Z",
+      "user_id_hash": "105a9cef3903",
+      "session_id": "s10",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-79505b10",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "f99cb7c9605b89a6a18b797c7ed0204c",
+      "name": "run",
+      "timestamp": "2026-08-11T08:14:38.110Z",
+      "user_id_hash": "4d14d5d4f719",
+      "session_id": "s09",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-344da7ad",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "853f2eda99b1f6a002df40d80c8790e0",
+      "name": "run",
+      "timestamp": "2026-08-11T08:14:36.997Z",
+      "user_id_hash": "2f015d970c0b",
+      "session_id": "s08",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-d37cb2ba",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "1ca3506684388fa6b3f91ffdfe10eac1",
+      "name": "run",
+      "timestamp": "2026-08-11T08:14:35.753Z",
+      "user_id_hash": "1632c29ecdec",
+      "session_id": "s07",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-ed050343",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "280f70815d7bc9735720ba4d014e4931",
+      "name": "run",
+      "timestamp": "2026-08-11T08:14:34.660Z",
+      "user_id_hash": "4c4f62330d76",
+      "session_id": "s06",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "summary"
+      ],
+      "correlation_id": "req-fcb29dde",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "0e502bd91b91ac2afc6e2a5811c76621",
+      "name": "run",
+      "timestamp": "2026-08-11T08:14:33.343Z",
+      "user_id_hash": "64f6ec689229",
+      "session_id": "s05",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-805f4079",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "1bc56a979edca1d4f72406edee98c1ec",
+      "name": "run",
+      "timestamp": "2026-08-11T08:14:32.112Z",
+      "user_id_hash": "75af07890985",
+      "session_id": "s04",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-fd899fee",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "73b4a75c2015dfaea8f54bd134efbe05",
+      "name": "run",
+      "timestamp": "2026-08-11T08:14:30.980Z",
+      "user_id_hash": "97ce842ec69d",
+      "session_id": "s03",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "summary"
+      ],
+      "correlation_id": "req-7fac04c9",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "75e6c51295e623159ea0c0584cf613ce",
+      "name": "run",
+      "timestamp": "2026-08-11T08:14:29.716Z",
+      "user_id_hash": "95b6504a8bd6",
+      "session_id": "s02",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-30d64f7b",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "d007e54206aca26fa8cabd9d5fdd822b",
+      "name": "run",
+      "timestamp": "2026-08-11T08:14:28.532Z",
+      "user_id_hash": "2055254ee30a",
+      "session_id": "s01",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-354f9023",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "17a8feed109cf01eb462d114766f789d",
+      "name": "run",
+      "timestamp": "2026-08-11T08:04:36.965Z",
+      "user_id_hash": "105a9cef3903",
+      "session_id": "s10",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-1f542d67",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "0786719f0fb584c9a060c51e7e7d7de7",
+      "name": "run",
+      "timestamp": "2026-08-11T08:04:35.760Z",
+      "user_id_hash": "4d14d5d4f719",
+      "session_id": "s09",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-d5bb6f2b",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "2d5cd3c816d9c61e929f4f44836c9c28",
+      "name": "run",
+      "timestamp": "2026-08-11T08:04:34.655Z",
+      "user_id_hash": "2f015d970c0b",
+      "session_id": "s08",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-084b5893",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    },
+    {
+      "trace_id": "8b5f0f65bdce3968285eca1e8dc18000",
+      "name": "run",
+      "timestamp": "2026-08-11T08:04:33.575Z",
+      "user_id_hash": "1632c29ecdec",
+      "session_id": "s07",
+      "tags": [
+        "claude-sonnet-4-5",
+        "lab",
+        "qa"
+      ],
+      "correlation_id": "req-32c93eb6",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback"
+    }
+  ]
+}

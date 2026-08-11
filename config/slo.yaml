@@ -4,13 +4,24 @@ slis:
   latency_p95_ms:
     objective: 3000
     target: 99.5
-    note: Replace with your group's target
+    note: >
+      Baseline đo được khi prompt đã cache là ~160ms/request, nên 3000ms còn rất nhiều
+      headroom cho biến động mạng và cold start; giữ nguyên để alert không nhiễu.
   error_rate_pct:
     objective: 2
     target: 99.0
+    note: >
+      App dùng FakeLLM nên lỗi thực tế gần 0; ngưỡng 2% dành cho lỗi phụ thuộc ngoài
+      (vector store timeout, Langfuse không phản hồi).
   daily_cost_usd:
     objective: 2.5
     target: 100.0
+    note: >
+      Chi phí thực đo ~0.002 USD/request, tức ~1250 request/ngày mới chạm ngưỡng.
+      Ngưỡng này bắt được sự cố cost_spike (output_tokens x4) trong vòng một ngày.
   quality_score_avg:
     objective: 0.75
     target: 95.0
+    note: >
+      Quality proxy đo được ~0.88. Ngưỡng 0.75 đủ thấp để không báo động vì dao động
+      thường ngày, nhưng bắt được khi RAG trả rỗng (mất 0.2 điểm docs).

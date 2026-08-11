@@ -1,19 +1,35 @@
 alerts:
-  - name: TODO_alert_1
-    severity: TODO
-    condition: TODO
+  - name: chat_slow_for_users
+    severity: warning
+    condition: "latency_p95 > 3000ms trong 5 phút liên tiếp (panel latency, event response_sent)"
     type: symptom-based
-    owner: TODO
+    owner: on-call-engineer
     runbook: docs/alerts.md#alert-1
-  - name: TODO_alert_2
-    severity: TODO
-    condition: TODO
+    sli: latency_p95_ms
+    notes: >
+      Đặt tên theo triệu chứng người dùng cảm nhận (câu trả lời đến chậm), không theo
+      thành phần nội bộ như retrieve hay generate. Nhờ vậy alert vẫn đúng khi nguyên
+      nhân đổi từ RAG sang LLM hoặc sang hàng đợi.
+
+  - name: chat_requests_failing
+    severity: critical
+    condition: "error_rate_pct > 5 trong 3 phút liên tiếp (count request_failed / count request_received)"
     type: symptom-based
-    owner: TODO
+    owner: on-call-engineer
     runbook: docs/alerts.md#alert-2
-  - name: TODO_alert_3
-    severity: TODO
-    condition: TODO
+    sli: error_rate_pct
+    notes: >
+      SLO đặt ở 2%; alert đặt cao hơn ở 5% và duy trì 3 phút để tránh đánh thức người
+      trực vì nhiễu, nhưng vẫn bắt kịp burn rate nhanh trước khi hết error budget.
+
+  - name: daily_cost_budget_exceeded
+    severity: warning
+    condition: "total_cost_usd trong 24h > 2.5 USD (panel cost, sum cost_usd)"
     type: symptom-based
-    owner: TODO
+    owner: team-lead
     runbook: docs/alerts.md#alert-3
+    sli: daily_cost_usd
+    notes: >
+      Triệu chứng ở đây là chi phí vận hành vượt ngân sách cam kết, quan sát được từ
+      bên ngoài. Không đặt điều kiện theo output_tokens của FakeLLM vì đó là chi tiết
+      triển khai và sẽ sai khi đổi model hoặc đổi cách tính giá.
