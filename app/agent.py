@@ -48,9 +48,8 @@ class LabAgent:
         langfuse_client.update_current_trace(
             user_id=hash_user_id(user_id),
             session_id=session_id,
-            tags=["lab", feature, self.model],
+            tags=["lab", feature, self.model, f"cid:{get_contextvars().get('correlation_id')}"],
             metadata={
-                "correlation_id": get_contextvars().get("correlation_id"),
                 "prompt_name": prompt.name,
                 "prompt_label": prompt.label,
                 "prompt_version": prompt.version,
