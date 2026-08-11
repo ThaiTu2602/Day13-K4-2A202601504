@@ -1,0 +1,24 @@
+{
+  "v1": {
+    "version": 1,
+    "labels": [
+      "baseline",
+      "production"
+    ],
+    "prompt": "Feature={{feature}}\nDocs={{docs}}\nQuestion={{message}}"
+  },
+  "v2": {
+    "version": 2,
+    "labels": [
+      "candidate"
+    ],
+    "prompt": "Feature={{feature}}\nDocs={{docs}}\nQuestion={{message}}\nAnswer in at most 3 sentences. Cite the retrieved docs when relevant."
+  },
+  "v3": {
+    "version": 3,
+    "labels": [
+      "latest"
+    ],
+    "prompt": "Bạn là một trợ lý AI xử lý tính năng {{feature}}.\nDựa vào tài liệu sau: {{docs}}\nHãy trả lời câu hỏi của người dùng: {{message}}\n"
+  }
+}

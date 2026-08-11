@@ -3,6 +3,8 @@ from __future__ import annotations
 import time
 from dataclasses import dataclass
 
+from structlog.contextvars import bind_contextvars, get_contextvars
+
 from . import metrics
 from .mock_llm import FakeLLM
 from .mock_rag import retrieve
@@ -43,12 +45,17 @@ class LabAgent:
         latency_ms = int((time.perf_counter() - started) * 1000)
         cost_usd = self._estimate_cost(response.usage.input_tokens, response.usage.output_tokens)
 
-        from structlog.contextvars import get_contextvars
-        
+        correlation_id = get_contextvars().get("correlation_id")
+
+        # Liên kết hai chiều Logs <-> Traces: trace_id đi vào log, correlation_id đi vào trace.
+        trace_id = getattr(langfuse_client, "get_current_trace_id", lambda: None)()
+        if trace_id:
+            bind_contextvars(trace_id=trace_id)
+
         langfuse_client.update_current_trace(
             user_id=hash_user_id(user_id),
             session_id=session_id,
-            tags=["lab", feature, self.model, f"cid:{get_contextvars().get('correlation_id')}"],
+            tags=["lab", feature, self.model, f"cid:{correlation_id}"],
             metadata={
                 "prompt_name": prompt.name,
                 "prompt_label": prompt.label,
@@ -59,6 +66,7 @@ class LabAgent:
         langfuse_client.update_current_generation(
             model=self.model,
             metadata={
+                "correlation_id": correlation_id,
                 "doc_count": len(docs),
                 "query_preview": summarize_text(message),
                 "prompt_name": prompt.name,
