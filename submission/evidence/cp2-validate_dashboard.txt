@@ -1,0 +1,18 @@
+=== CP2 — Kết quả validate_dashboard.py ===
+Ngày chạy: 2026-08-11
+
+--- python scripts/validate_dashboard.py ---
+HỢP LỆ: 6/6 panel có trong dashboard contract.
+
+--- python scripts/render_dashboard.py (dựng từ data/logs.jsonl) ---
+Đã dựng 6 panel từ 79 bản ghi trong 60 phút gần nhất.
+  [    OK] latency  1354 ms
+  [    OK] traffic  5.14 requests_per_minute
+  [    OK] errors   0 percent
+  [    OK] cost     0.0728 usd
+  [    OK] tokens   5831 tokens
+  [    OK] quality  0.8806 score_0_to_1
+Dashboard: /Users/nguyenhoangminh/Day13-K4-2A202601504/submission/evidence/dashboard.html
+
+--- python -m pytest -q ---
+22 passed, 2 warnings in 1.13s

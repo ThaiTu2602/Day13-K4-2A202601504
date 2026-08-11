@@ -1,0 +1,38 @@
+{
+  "trace_id": "fcc67aefffd3e5b0fbe5d1b42e40b169",
+  "url": "https://cloud.langfuse.com/project/_/traces/fcc67aefffd3e5b0fbe5d1b42e40b169",
+  "tags": [
+    "claude-sonnet-4-5",
+    "lab",
+    "qa"
+  ],
+  "metadata": {
+    "prompt_name": "day13-chat",
+    "prompt_label": "production",
+    "prompt_version": 1,
+    "prompt_source": "langfuse",
+    "correlation_id": "req-1616513d",
+    "doc_count": 1,
+    "query_preview": "What is the policy for PII and credit card [REDACTED_CREDIT_CARD]?"
+  },
+  "observations": [
+    {
+      "type": "GENERATION",
+      "name": "run",
+      "startTime": "2026-08-11T08:20:11.668Z",
+      "latency_ms": 157
+    },
+    {
+      "type": "SPAN",
+      "name": "generate",
+      "startTime": "2026-08-11T08:20:11.669Z",
+      "latency_ms": 153
+    },
+    {
+      "type": "SPAN",
+      "name": "retrieve",
+      "startTime": "2026-08-11T08:20:11.669Z",
+      "latency_ms": 0
+    }
+  ]
+}
