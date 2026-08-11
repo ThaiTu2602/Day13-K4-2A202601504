@@ -52,4 +52,5 @@ Với mỗi thành viên, ghi rõ nhiệm vụ và link commit/PR tương ứng.
 
 | Thành viên | Phần việc | Commit/PR | Điều đã học |
 |---|---|---|---|
-| | | | |
+| Nguyễn Việt Hải | Implement Correlation ID middleware, Log Context Enrichment (`bind_contextvars`), PII Redaction Processor đệ quy (`scrub_event`), cài đặt Langfuse AI skill và tích hợp Tracing. | Branch [`NguyenVietHai`](https://github.com/ThaiTu2602/Day13-K4-2A202601504/tree/NguyenVietHai) (Commit `3e05aab`) | Cấu trúc JSON logging với Correlation ID xuyên suốt request, kỹ thuật khử PII tự động đệ quy bằng Regex, và quy chuẩn tích hợp Tracing & Span hierarchy với Langfuse SDK. |
+
